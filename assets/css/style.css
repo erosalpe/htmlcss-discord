@@ -135,15 +135,15 @@ div.flex-title > p{
 /* Main css */
 
 main{
-    width: 60%;
-    margin: auto;
+    background-color: #f6f6f6;
 }
-
 .section-flex{
     display: flex;
     justify-content: center;
     gap: 100px;
     padding-block: 100px;
+    width: 60%;
+    margin: auto;
 }
 
 h2{
@@ -162,19 +162,8 @@ div.section-one-text p{
     gap: 100px;
     padding-block: 100px;
     background-color: #f6f6f6;
-}
-
-section.section-flex-reverse figure img{
-    width: 500px;
-    height: 400px;
-    background-color: red;
-}
-
-
-section > h2{
-    width: 800px;
-    height: 50px;
-    background-color: grey;
+    width: 60%;
+    margin: auto;
 }
 
 section > p{
