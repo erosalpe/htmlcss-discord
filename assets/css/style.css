@@ -170,9 +170,11 @@ div.section-one-text p{
 }
 
 section > h3{
-    width: 400px;
-    height: 40px;
-    background-color: grey;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 40px;
+    font-size: 30px;
 }
 
 .chilling-flex{
