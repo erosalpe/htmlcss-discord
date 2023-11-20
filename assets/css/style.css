@@ -86,7 +86,8 @@ h1{
     justify-content: center;
     gap: 40px;
     align-self: center;
-    width: 45%;
+    width: 60%;
+    margin: auto;
 }
 
 div.flex-title > p{
@@ -133,37 +134,32 @@ div.flex-title > p{
 
 /* Main css */
 
+main{
+    width: 60%;
+    margin: auto;
+}
+
 .section-flex{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     padding-block: 100px;
 }
 
-section.section-flex figure img{
-    width: 500px;
-    height: 400px;
-    background-color: red;
-}
-
-div.section-one-text h2{
-    width: 500px;
-    height: 350px;
-    background-color: grey;
+h2{
+    font-size: 50px;
 }
 
 div.section-one-text p{
     margin-top: 30px;
-    width: 500px;
-    height: 150px;
-    background-color: rgb(114, 52, 52);
+    font-size: 25px;
 }
 
 .section-flex-reverse{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     padding-block: 100px;
     background-color: #f6f6f6;
 }
