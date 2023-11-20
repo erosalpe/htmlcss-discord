@@ -198,10 +198,6 @@ section > h3{
     font-size: 25px;
 }
 
-.grey{
-    background-color: #f6f6f6;
-}
-
 
 /* footer css*/
 
@@ -215,24 +211,31 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: calc(100% / 7)
 }
 
-div.social-flex > h2{
-    width: 250px;
-    height: 100px;
-    background-color: yellow;
+div.social-flex h2{
+    font-size: 30px;
 }
 
-div.social-flex > div.language{
-    width: 100px;
-    height: 30px;
-    background-color: rgb(0, 255, 34);
+div.language{
+    display: flex;
 }
 
-div.social-links-flex > figure img{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(255, 0, 179);
+div.language figure>img{
+    width: 50%;
+    display: block;
+}
+
+
+
+
+
+
+div.social-links-flex > figure svg{
+    width: 20px;
+    height: 20px;
+    fill: white;
 }
 
 .social-links-flex{
