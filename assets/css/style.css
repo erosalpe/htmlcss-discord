@@ -111,7 +111,7 @@ div.flex-title > p{
     font-weight: bold;
 }
 
-.open, .download{
+.open, .download, .download-mac{
     padding: 20px;
 }
 
@@ -185,6 +185,17 @@ section > h3{
     gap: 30px;
     width: 60%;
     margin: auto;
+}
+
+.download-mac{
+    background-color: #8ea1e1;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.download-mac a{
+    color: white;
+    font-size: 25px;
 }
 
 .grey{
