@@ -240,11 +240,15 @@ div.language{
     display: flex;
 }
 
-div.language figure>img{
-    width: 50%;
+div.language figure > img{
+    height: 30%;
     display: block;
+    margin-right: 5px;
 }
 
+div.language figure{
+    margin-bottom: -40px;
+}
 
 
 
@@ -307,4 +311,9 @@ div.about-flex ul li{
     justify-content: space-between;
     margin-top: 30px;
     padding-bottom: 80px;
+}
+
+ul{
+    font-weight: bold;
+    padding-top: 5px;
 }
