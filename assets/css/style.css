@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* Header css */
 
 header{
@@ -19,23 +20,34 @@ header{
 }
 
 header figure img{
-    width: 100px;
-    height: 50px;
-    background-color: red;
     display: block;
     
+}
+
+nav > ul, div.accedi{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav > ul{
+    color: white;
 }
 
 .accedi{
-    width: 100px;
-    height: 50px;
-    background-color: red;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px;
     display: block;
     
 }
 
+nav.flex-nav a{
+    text-decoration: none;
+    color: black;
+}
+
 nav{
-    background-color: purple;
     align-items: center;
     margin-top: 20px;
     margin-inline: 10%;
@@ -44,12 +56,6 @@ nav{
 nav>ul{
     list-style-type: none;
 }
-
-/* nav li{
-    height: 30px;
-    width: 100px;
-    background-color: grey;
-} */
 
 .flex-nav{
     display: flex;
@@ -63,24 +69,25 @@ nav>ul{
 }
 
 h1{
-    width: 500px;
-    height: 100px;
-    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 80px;
 }
 
 .flex-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     align-self: center;
-    background-color: rgb(255, 196, 0);
+    width: 45%;
 }
 
 div.flex-title > p{
-    width: 500px;
-    height: 150px;
-    background-color: gray;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
 }
 
 .buttons{
@@ -92,10 +99,14 @@ div.flex-title > p{
 }
 
 .bottone{
-    width: 200px;
-    height: 50px;
-    background-color: white;
-    border: 1px solid black;
+    background-color: #23272A;
+    border-radius: 50px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+div.buttons .accedi{
+    color: black;
 }
 
 
