@@ -17,6 +17,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 90px;
+    padding-bottom: 150px;
 }
 
 header figure img{
@@ -34,16 +35,21 @@ nav > ul{
     color: white;
 }
 
-.accedi{
+.accedi, .download{
     background-color: white;
     border-radius: 50px;
-    padding: 7px;
     display: block;
-    
+}
+
+.accedi{
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
 }
 
 nav.flex-nav a{
-    text-decoration: none;
     color: black;
 }
 
@@ -98,16 +104,29 @@ div.flex-title > p{
 
 }
 
-.bottone{
+.open{
     background-color: #23272A;
     border-radius: 50px;
-    padding: 7px;
     font-weight: bold;
 }
 
-div.buttons .accedi{
-    color: black;
+.open, .download{
+    padding: 20px;
 }
+
+.download a{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.open a{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+
 
 
 
