@@ -172,7 +172,8 @@ div.section-one-text p{
     flex-direction: row-reverse;
     justify-content: center;
     gap: 100px;
-    padding-block: 100px;
+    padding-top: 20px;
+    padding-bottom: 150px;
     background-color: lightgray;
     width: 60%;
     margin: auto;
@@ -316,4 +317,18 @@ div.about-flex ul li{
 ul{
     font-weight: bold;
     padding-top: 5px;
+}
+
+
+
+/* wave css */
+
+.wave-grey{
+    color: lightgray;
+    margin-bottom: -10px;
+}
+
+.wave-white{
+    color: #F6F6F6;
+    margin-top: -100px;
 }
