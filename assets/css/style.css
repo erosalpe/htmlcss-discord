@@ -137,6 +137,10 @@ div.flex-title > p{
 main{
     background-color: #f6f6f6;
 }
+
+main p{
+    font-size: 25px;
+}
 .section-flex{
     display: flex;
     justify-content: center;
@@ -152,7 +156,6 @@ h2{
 
 div.section-one-text p{
     margin-top: 30px;
-    font-size: 25px;
 }
 
 .section-flex-reverse{
@@ -164,18 +167,6 @@ div.section-one-text p{
     background-color: #f6f6f6;
     width: 60%;
     margin: auto;
-}
-
-section > p{
-    width: 800px;
-    height: 90px;
-    background-color: rgb(114, 45, 45);
-}
-
-section > figure.just-chilling > img{
-    width: 900px;
-    height: 400px;
-    background-color: green;
 }
 
 section > h3{
@@ -190,6 +181,8 @@ section > h3{
     padding-block: 100px;
     flex-direction: column;
     gap: 30px;
+    width: 60%;
+    margin: auto;
 }
 
 .grey{
