@@ -243,20 +243,18 @@ div.social-links-flex > figure svg{
     gap: 20px;
 }
 
-div.about-flex h4{
-    width: 100px;
-    height: 40px;
-    background-color: pink;
-    border: 1px solid red;
+footer h2, footer h4{
+    color: #7289DA;
+}
+
+footer span{
+    color: white;
 }
 
 div.about-flex ul li{
-    width: 100px;
-    height: 40px;
-    background-color: white;
     list-style-type: none;
-    border: 1px solid red;
     margin-block: 10px;
+    color: white;
 }
 
 .about-flex{
@@ -274,21 +272,16 @@ div.about-flex ul li{
     padding-bottom: 40px;
 }
 
-
-div.footer-logo-flex figure img{
-    width: 100px;
-    height: 50px;
-    background-color: red;
-    display: block;
-    
+.registrati{
+    background-color: #8EA1E1;
+    align-self: center;
+    border-radius: 50px;
+    padding: 10px;
 }
 
-.registrati{
-    width: 100px;
-    height: 50px;
-    background-color: red;
-    display: block;
-    
+.registrati a{
+    color: white;
+    font-weight: bold;
 }
 
 .footer-logo-flex{
