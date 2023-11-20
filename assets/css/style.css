@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
 
 html{
     font-family: 'Nunito', sans-serif;
@@ -32,7 +32,7 @@ header figure img{
 nav > ul, div.accedi{
     text-transform: capitalize;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 nav > ul{
@@ -112,7 +112,7 @@ div.flex-title > p{
 .open{
     background-color: #23272A;
     border-radius: 50px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .open, .download, .download-mac{
@@ -120,13 +120,13 @@ div.flex-title > p{
 }
 
 .download a{
-    font-size: 25px;
+    font-size: 20px;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .open a{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
 }
